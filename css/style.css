@@ -96,6 +96,7 @@ html, body {
   }
 
 .close-btn {
+    position: absolute;
     background-image: url(../assets/close.svg);
     cursor:pointer;
     background-repeat: no-repeat;
