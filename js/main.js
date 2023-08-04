@@ -40,11 +40,14 @@ function close_show() {
 
 function open_show() {
     var popup = document.getElementById("show-menu");
+    var bg = document.getElementById("bg");
     if (open == false) {
         popup.style.display = 'block'
+        bg.style.display = 'block'
         open = true
     } else {
         popup.style.display = 'none'
+        bg.style.display = 'none'
         open = false
     }
   }
