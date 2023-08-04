@@ -31,16 +31,19 @@
         <center><img draggable="false" class="banner" width="50%" src="assets/heartstopper_banner.jpg"></img></center>
         <div class="show-bar" style="background-color: rgb(14, 14, 14);">
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Season 2</button>
+                <button onclick="myFunction()" class="dropbtn" id="dropbtn">Season 2</button>
                 <div id="myDropdown" class="dropdown-content">
-                  <a style="cursor: not-allowed;">Season 1</a>
-                  <a href="#" class="drop-hover">Season 2</a>
+                  <a onclick='season("s1", this)' class="drop-hover">Season 1</a>
+                  <a onclick='season("s2", this)' class="drop-hover">Season 2</a>
                 </div>
             </div>
         </div>
-        <div class="episode-container">
+        <div class="episode-container" id="episode-container">
 
-            <div style="background-image: url(assets/Heartstopper.S02E01.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="e1" onclick='window.location.href = "watch.html#heartstopper.s2.e1"'>
+            <h1 style="display: none; font-family: Arial; color: white;" id="s1">Season 1 Is currently unavailable</h1>
+
+            <div style="background-image: url(assets/Heartstopper.S02E01.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="s2" onclick='window.location.href = "watch.html#heartstopper.s2.e1"'>
+                <br>
                 <div class="etext-contain">
                     <div class="etext">
                         <h2>S02 E01 · Out</h2>
@@ -49,7 +52,8 @@
                 </div>
             </div>
 
-            <div style="background-image: url(assets/Heartstopper.S02E02.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="e1" onclick='window.location.href = "watch.html#heartstopper.s2.e2"'>
+            <div style="background-image: url(assets/Heartstopper.S02E02.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="s2" onclick='window.location.href = "watch.html#heartstopper.s2.e2"'>
+                <br>
                 <div class="etext-contain">
                     <div class="etext">
                         <h2>S02 E02 · Family</h2>
@@ -58,7 +62,8 @@
                 </div>
             </div>
 
-            <div style="background-image: url(assets/Heartstopper.S02E03.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="e1" onclick='window.location.href = "watch.html#heartstopper.s2.e3"'>
+            <div style="background-image: url(assets/Heartstopper.S02E03.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="s2" onclick='window.location.href = "watch.html#heartstopper.s2.e3"'>
+                <br>
                 <div class="etext-contain">
                     <div class="etext">
                         <h2>S02 E03 · Promise</h2>
@@ -67,7 +72,8 @@
                 </div>
             </div>
 
-            <div style="background-image: url(assets/Heartstopper.S02E04.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="e1" onclick='window.location.href = "watch.html#heartstopper.s2.e4"'>
+            <div style="background-image: url(assets/Heartstopper.S02E04.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="s2" onclick='window.location.href = "watch.html#heartstopper.s2.e4"'>
+                <br>
                 <div class="etext-contain">
                     <div class="etext">
                         <h2>S02 E04 · Challenge</h2>
@@ -76,7 +82,8 @@
                 </div>
             </div>
 
-            <div style="background-image: url(assets/Heartstopper.S02E05.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="e1" onclick='window.location.href = "watch.html#heartstopper.s2.e5"'>
+            <div style="background-image: url(assets/Heartstopper.S02E05.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="s2" onclick='window.location.href = "watch.html#heartstopper.s2.e5"'>
+                <br>
                 <div class="etext-contain">
                     <div class="etext">
                         <h2>S02 E05 · Heat</h2>
@@ -85,7 +92,8 @@
                 </div>
             </div>
 
-            <div style="background-image: url(assets/Heartstopper.S02E06.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="e1" onclick='window.location.href = "watch.html#heartstopper.s2.e6"'>
+            <div style="background-image: url(assets/Heartstopper.S02E06.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="s2" onclick='window.location.href = "watch.html#heartstopper.s2.e6"'>
+                <br>
                 <div class="etext-contain">
                     <div class="etext">
                         <h2>S02 E06 · Truth / Dare</h2>
@@ -94,7 +102,8 @@
                 </div>
             </div>
 
-            <div style="background-image: url(assets/Heartstopper.S02E07.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="e1" onclick='window.location.href = "watch.html#heartstopper.s2.e7"'>
+            <div style="background-image: url(assets/Heartstopper.S02E07.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="s2" onclick='window.location.href = "watch.html#heartstopper.s2.e7"'>
+                <br>
                 <div class="etext-contain">
                     <div class="etext">
                         <h2>S02 E07 · Sorry</h2>
@@ -103,7 +112,8 @@
                 </div>
             </div>
 
-            <div style="background-image: url(assets/Heartstopper.S02E08.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="e1" onclick='window.location.href = "watch.html#heartstopper.s2.e8"'>
+            <div style="background-image: url(assets/Heartstopper.S02E08.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="s2" onclick='window.location.href = "watch.html#heartstopper.s2.e8"'>
+                <br>
                 <div class="etext-contain">
                     <div class="etext">
                         <h2>S02 E08 · Perfect</h2>

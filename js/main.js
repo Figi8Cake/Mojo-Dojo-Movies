@@ -49,6 +49,20 @@ function open_show() {
     }
   }
 
+function season(num, sbtn) {
+    filter = document.getElementById("episode-container");
+    var seasontext = "Season "+num.at(-1)
+    document.getElementById("dropbtn").innerHTML  = seasontext;
+
+    for (const child of filter.children) {
+        if (child.id == num) {
+            child.style.display = "block"
+        } else {
+            child.style.display = "none"
+        }
+    }
+}
+
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
