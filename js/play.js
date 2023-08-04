@@ -7,7 +7,7 @@ function loadVideo() {
     const player = document.getElementById('video');
     console.log(hash);
 
-    fetch("info.json")
+    fetch("json/info.json")
         .then(response => response.json())
         .then(json => {
             console.log(json[hash]);
