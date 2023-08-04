@@ -14,7 +14,7 @@ function loadVideo() {
             var src = json[hash].src;
             var name = json[hash].name;
             var desc = json[hash].desc;
-            player.src = src
+            player.src = src;
 
     });
 }
