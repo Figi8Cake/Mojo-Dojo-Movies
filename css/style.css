@@ -62,7 +62,7 @@ html, body {
     display: flex;
     flex-direction: row;
     margin-top: 40px !important;
-    margin: 0px;
+    margin: 100px;
 }
 
 #item {
@@ -277,6 +277,10 @@ font-family: Arial;
 
     .etext {
         font-size: 12px;
+    }
+
+    .viewer-container {
+        margin: 25px;
     }
 }
 
