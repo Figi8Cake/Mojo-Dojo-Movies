@@ -18,7 +18,7 @@
 
     <div class="viewer-container">
 
-        <div style="background-image: url('./assets/heartstopper.jpg'); background-size: 250px; background-repeat: no-repeat;" id="item" onclick='open_show()'>
+        <div style="background-image: url('./assets/heartstopper.jpg'); background-size: cover; background-repeat: no-repeat;" id="item" onclick='open_show()'>
             <div id="name-container" style="background-color: rgba(0, 0, 0, 0.5);"><h1 style="color: rgb(255, 255, 255);" id="name">Heart Stopper</h1></div>
         </div>
 
@@ -30,83 +30,23 @@
     <div id="show-menu" class="show-menu">
         <button class="close-btn" onclick="open_show()"></button>
         <center><img draggable="false" class="banner" width="50%" src="assets/heartstopper_banner.jpg"></img></center>
+        <div class="show-bar" style="background-color: rgb(14, 14, 14);">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Seasons</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Season 1</a>
+                  <a href="#">Season 2</a>
+                </div>
+            </div>
+        </div>
         <div class="episode-container">
-            <div class="episode" id="e1" onclick="play('https://861520055.tapecontent.net/radosgw/BvO3BD173quyY96/k7yb8nD44nFB18qZ3GInH4BkR7Fr9tXNw42aCNSKMilmTh5prvUafsoNCwjDU8VG-Xe4IaOteqxJGgHz-mtUO4sIZOpQ8OrJTJTFeSRfqv8X7wUtL7Ffly_LVArF1gTvwzZG7837A_V2He1S3ByTXzkqCrM8Wu9NHIK1v1Lc_i6IKB6qI9MlftJuoN5JrBimsWQEqe_Zt6neDqySBXP5RSrucyhFjGUvshBntnBcpQ8Renbzf0R17aCk8m1tVdwH3Wu5Bv6Qh6juhdnmI2xJh1ZH9HWcRedFhq_rHkjUVI5VDJPSvK_dlJZQOTC3JfbWCeiG8ENaC48IjOEZ/Heartstopper.S02E01.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?stream=1')">
-                <img draggable="false" src="assets/Heartstopper.S02E01.jpg" class="eicon" height="100%" width="250px"></img>
+
+            <div style="background-image: url(assets/Heartstopper.S02E01.jpg); background-position: left; background-repeat: no-repeat; background-size: contain;" class="episode" id="e1" onclick="play('https://861520055.tapecontent.net/radosgw/BvO3BD173quyY96/k7yb8nD44nFB18qZ3GInH4BkR7Fr9tXNw42aCNSKMilmTh5prvUafsoNCwjDU8VG-Xe4IaOteqxJGgHz-mtUO4sIZOpQ8OrJTJTFeSRfqv8X7wUtL7Ffly_LVArF1gTvwzZG7837A_V2He1S3ByTXzkqCrM8Wu9NHIK1v1Lc_i6IKB6qI9MlftJuoN5JrBimsWQEqe_Zt6neDqySBXP5RSrucyhFjGUvshBntnBcpQ8Renbzf0R17aCk8m1tVdwH3Wu5Bv6Qh6juhdnmI2xJh1ZH9HWcRedFhq_rHkjUVI5VDJPSvK_dlJZQOTC3JfbWCeiG8ENaC48IjOEZ/Heartstopper.S02E01.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?stream=1')">
+                <br>
                 <div class="etext-contain">
                     <div class="etext">
                         <h2>S02 E01 · Out</h2>
                         <p>As his relationship with Charlie matures, Nick considers coming out to Imogen — but it's a lot harder than he expected. Elle tries flirting with Tao.</p>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="episode" id="e2" onclick="play('Heartstopper.S02E02')">
-                <img draggable="false" src="assets/Heartstopper.S02E02.jpg" class="eicon" height="100%" width="250px"></img>
-                <div class="etext-contain">
-                    <div class="etext">
-                        <h2>S02 E02 · Family</h2>
-                        <p>With Charlie's grades slipping, his parents tighten the rules. Tao's jealous when Elle makes new friends. Nick's older brother invades his privacy.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="episode" id="e3" onclick="play('https://861472484.tapecontent.net/radosgw/eAyL30OokkTY0vg/s5sJyHRKQRmjnGe1MW-9tQ_ij6iK3HQlYH3s9oMTHfFiGvh8Y-RIAgaC7D7Z5B2D1s3AgFJS54gQ77OMz_RjBiWu-rgtYWS6dd37K_3e1_jhK3nsNVchTM5D45Y-J08s2bPF9FuvlMSJONevpL1oEZPaZbCDk80DMgGXwcEP3sGd0n_h7Re7Z8DLkS-msvo9bpa66pblLXZI1IynXRucz6OW5B_uMzXMuDm9gTF-9aUUsvXFgOphheEwUxj0zP_CZUbN2wMkHDiuDN88DUsaeaOzwTCSxzjae5WAguDwLQLxXVOuZ0wwicumezsJFYdj_K0SZbnI4179SSGG/Heartstopper.S02E03.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?stream=1')">
-                <img draggable="false" src="assets/Heartstopper.S02E03.jpg" class="eicon" height="100%" width="250px"></img>
-                <div class="etext-contain">
-                    <div class="etext">
-                        <h2>S02 E03 · Promise</h2>
-                        <p>Nick tries to come out to some of his teammates at a bonfire party after exams. Tao plans the perfect date. Things get weird between Tara and Darcy.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="episode" id="e4" onclick="play('https://860133936.tapecontent.net/radosgw/pYVgBk9MLjIr9BM/krlUu4E-mr4mufPxuyCTOt9QigtEufNjrs7l9IXK9E344mW5u8xwedXMn34RZJqCV3MF_oPNkwrMxYUTcCsYwqi5F7r0HolWfpzDancs1R5rEc4a2pK5UBdy1Uci2KEVD7K_T2Wjz2uyuUtKG5OUy5WJUrrjLtTEQs4bo_JPL1P1Kou3GHjscjj9S6-PKzb0YsORXaiKJWOzxD0rGGi5S6-SNDRTrNActUnc-A-F2lp6LaNXp3R4LZVh7VOFJNr27698JrVVnZHQphVpXZo4uCBYr7y401M3PzlQSOtwUeZNZTSI7Uno8gnzzCNN4nDlCs8RJ4ijNk331RK_/Heartstopper.S02E04.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?stream=1')">
-                <img draggable="false" src="assets/Heartstopper.S02E04.jpg" class="eicon" height="100%" width="250px"></img>
-                <div class="etext-contain">
-                    <div class="etext">
-                        <h2>S02 E04 · Challenge</h2>
-                        <p>On a school trip to Paris, Nick and Charlie try to keep their relationship under wraps. Elle and Tao reconnect at a museum. Imogen stands up to Ben.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="episode" id="e5" onclick="play('https://867320086.tapecontent.net/radosgw/lDgdXx6J09H7eB9/0FwTOoUsEKiEzGQCaIF5cKWkv1_aWsYK_BBXrRWdZG2vLEzI-q7CaAnAcWMRVLCwVeJHGMWfL6j5uKB8A-GAbvb2H_-Y_NHierBh2EvfnkSlf4kzdAnV_Lcp2DXnSG79GHkWeAudC-dty9fsonI4kXyico3Z5RsWf8uaoTn3OW4BTYILDgB02WEMTM5YutceVvp31kULdmTotfIzMsyfU2qBw0hhC99OSBN_hO32QbhrRTk6jkp8Bn7qAPjRGjPyr9McHuZ1xBLUBBY1urJkU9HhcN7z9hzFPluN9ERdqhmsnHtMfVwQIbyndGr9LM2fZsSB3ZP-eio1HXcH/Heartstopper.S02E05.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?stream=1')">
-                <img draggable="false" src="assets/Heartstopper.S02E05.jpg" class="eicon" height="100%" width="250px"></img>
-                <div class="etext-contain">
-                    <div class="etext">
-                        <h2>S02 E05 · Heat</h2>
-                        <p>Rumors spread when Charlie wakes up with something on his neck. A group tour of the city's most famous sights reveals more than one major secret.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="episode" id="e6" onclick="play('https://908373051.tapecontent.net/radosgw/XrQkw1PQ7wSD93Z/kGy02bqfYT60Gq8Q8HupICu3RAlNFqIOk2Vo5pkzflrramPLhVo4MCQvs0lUZeDFKebiZ75sZpGTDjRgHb79ct1Q9dhjEMGN03NHHNJ8Jyy3ESEMfgTtc4KVfRLCx_UkthQaZS_NFjDJwARqf6b1cj917WfzT21El1UkvfU7SWRaRZF8gZIda_QrxSDmLgMhDBqrC-86jreM1nGKHevj8wWppJauTbAtpcTnk8CG5YgzWWCLcd3EhFIIsb5d8b2mC_bu0s3xomm4VbIm36_-yG-wKuWjoAc6qq4R3yzgo4oIPiMEQk6xg1tBdzBpEvQLHnXThMPwMYReoA0K/Heartstopper.S02E06.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?stream=1')">
-                <img draggable="false" src="assets/Heartstopper.S02E06.jpg" class="eicon" height="100%" width="250px"></img>
-                <div class="etext-contain">
-                    <div class="etext">
-                        <h2>S02 E06 · Truth / Dare</h2>
-                        <p>On their last day in Paris, Nick introduces Charlie to his dad. Elle and Tao make it official. The truth comes out at a party that's full of surprises.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="episode" id="e7" onclick="play('https://908373049.tapecontent.net/radosgw/vp48qV8Vl3s41Dy/EKskKhyrB4SiEG3uvjS8oh9C2EJ92YjwjcHJTeJqUm2CJ-_Qq5TY9r5DJSsXuJhheNfC2QntJua7edJ6lSgkcWVXwmOF-oi7y-b9Ms7Q0_S65J6R33HmE4vwhErER9WwIc-cEZnAKW4Hi2lwiGZgm_htp6mgtXxcqyBHOG9wd1qH1DfbIZaBTgvazXWWEZEzZyWKJWBRwuA_0rkvcBg_pt88hUwLYk51EH8VwfCDAyRgNBZ2XHVWMVPuU1L1-smk5wKj9gEOp-V_TBD-Abx-AoxVfuvIuYcNX71YWCsg3e29NqtGOS6v2h4DvTe3zTJNSBeMev3wf37fRvpz/Heartstopper.S02E07.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?stream=1')">
-                <img draggable="false" src="assets/Heartstopper.S02E07.jpg" class="eicon" height="100%" width="250px"></img>
-                <div class="etext-contain">
-                    <div class="etext">
-                        <h2>S02 E07 · Sorry</h2>
-                        <p>Elle keeps big news from Tao, Ben pressures Charlie to forgive him, and Isaac opens up to James. Nick invites Charlie to a tense family dinner.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="episode" id="e8" onclick="play('https://2475154808.tapecontent.net/radosgw/L2VvV0dXoPURQb7/iwqJ-2e68iIPy4ZC_voBYowbpoo_eZdbkwxx0rpzW0RERhkkIXcmP40NDjjr2tF43uBg5a3ssoYRzGi2LtmKXtYu_fRQmFawr0Nk6j-XtZDAEvnF26baFllSFKvvcWcFKU8WQZUp7LvGyZAavaoZwEzHi7k2G2Vjx_D3JDOBuoUvVISg_nFgNPtTnYp7XLZ_cRGLvhbAZPtz51P9h09moOuB0LuVZgIPblKWJ7olZwJXKIdTaZ1c28SfKf-NCeJ6_4a-3mwUkK5Viz59HOjAOKwF25yBQmjsPXZaekQf3V31vIrQ3RgIxB81UZskHBTbBgDtXdx1UG5DzwQo/Heartstopper.S02E08.720p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?stream=1')">
-                <img draggable="false" src="assets/Heartstopper.S02E08.jpg" class="eicon" height="100%" width="250px"></img>
-                <div class="etext-contain">
-                    <div class="etext">
-                        <h2>S02 E08 · Perfect</h2>
-                        <p>The gang comes together for a memorable prom with a fitting theme: "Summer of Love." But with someone important missing... it feels incomplete.</p>
                     </div>
                 </div>
             </div>
