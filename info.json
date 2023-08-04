@@ -1,8 +1,57 @@
 {
     "heartstopper.s2.e1":
       {
-        "src": "Test",
+        "src": "https://www.dropbox.com/s/haicjd98pshhfsd/Heartstopper.S02E01.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?raw=1",
         "name": "S02 E01 · Out",
         "desc": "As his relationship with Charlie matures, Nick considers coming out to Imogen — but it's a lot harder than he expected. Elle tries flirting with Tao."
-      }
+      },
+    
+    "heartstopper.s2.e2":
+    {
+    "src": "",
+    "name": "S02 E02 · Family",
+    "desc": "With Charlie's grades slipping, his parents tighten the rules. Tao's jealous when Elle makes new friends. Nick's older brother invades his privacy."
+    },
+
+    "heartstopper.s2.e3":
+    {
+      "src": "https://www.dropbox.com/s/fi5df5cr6kf7f79/Heartstopper.S02E03.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?raw=1",
+      "name": "S02 E03 · Promise",
+      "desc": "Nick tries to come out to some of his teammates at a bonfire party after exams. Tao plans the perfect date. Things get weird between Tara and Darcy."
+    },
+  
+    "heartstopper.s2.e4":
+    {
+    "src": "https://www.dropbox.com/s/4bayk8mlwrdihdw/Heartstopper.S02E04.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?raw=1",
+    "name": "S02 E04 · Challenge",
+    "desc": "On a school trip to Paris, Nick and Charlie try to keep their relationship under wraps. Elle and Tao reconnect at a museum. Imogen stands up to Ben."
+    },
+
+    "heartstopper.s2.e5":
+    {
+      "src": "https://www.dropbox.com/s/qyhkjvc79lcyp9r/Heartstopper.S02E05.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?raw=1",
+      "name": "S02 E05 · Heat",
+      "desc": "Rumors spread when Charlie wakes up with something on his neck. A group tour of the city's most famous sights reveals more than one major secret."
+    },
+  
+    "heartstopper.s2.e6":
+    {
+    "src": "https://www.dropbox.com/s/sbbhs1xozde2bso/Heartstopper.S02E06.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?raw=1",
+    "name": "S02 E06 · Truth / Dare",
+    "desc": "On their last day in Paris, Nick introduces Charlie to his dad. Elle and Tao make it official. The truth comes out at a party that's full of surprises."
+    },
+
+    "heartstopper.s2.e7":
+    {
+    "src": "https://www.dropbox.com/s/n26l5uvkdtncx7c/Heartstopper.S02E07.1080p.WEB.h264-EDITH%5Beztv.re%5D.mkv.mp4?raw=1",
+    "name": "S02 E07 · Sorry",
+    "desc": "Elle keeps big news from Tao, Ben pressures Charlie to forgive him, and Isaac opens up to James. Nick invites Charlie to a tense family dinner."
+    },
+
+    "heartstopper.s2.e8":
+    {
+    "src": "",
+    "name": "S02 E08 · Perfect",
+    "desc": "The gang comes together for a memorable prom with a fitting theme: "Summer of Love." But with someone important missing... it feels incomplete."
+    }
   }

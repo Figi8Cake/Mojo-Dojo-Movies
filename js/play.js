@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function loadVideo() {
     var hash = location.hash.substr(1);
+    const player = document.getElementById('video');
     console.log(hash);
 
     fetch("info.json")
@@ -13,8 +14,7 @@ function loadVideo() {
             var src = json[hash].src;
             var name = json[hash].name;
             var desc = json[hash].desc;
-            console.log(src);
-            console.log(name);
-            console.log(desc);
+            player.src = src
+
     });
 }
