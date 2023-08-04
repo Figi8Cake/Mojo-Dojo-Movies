@@ -7,7 +7,7 @@ function loadVideo() {
     const player = document.getElementById('video');
     console.log(hash);
 
-    fetch("json/info.json")
+    fetch("https://figi8cake.github.io/Mojo-Dojo-casa-Movies/json/info.json")
         .then(response => response.json())
         .then(json => {
             console.log(json[hash]);
